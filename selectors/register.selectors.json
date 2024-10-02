@@ -1,0 +1,13 @@
+{
+    "signupForm": {
+      "usernameInput": "#ContentPlaceHolder1_txtUserName",
+      "emailInput": "#ContentPlaceHolder1_txtEmail",
+      "confirmEmailInput": "#ContentPlaceHolder1_txtConfirmEmail",
+      "passwordInput": "#ContentPlaceHolder1_txtPassword",
+      "confirmPasswordInput": "#ContentPlaceHolder1_txtPassword2",
+      "termsCheckbox": "#ContentPlaceHolder1_MyCheckBox",
+      "subscribeNewsletterCheckbox": "#ContentPlaceHolder1_SubscribeNewsletter",
+      "submitButton": "#ContentPlaceHolder1_btnRegister",
+      "successMessages": "#ContentPlaceHolder1_divHeaderReg > h1"
+    }
+  }

@@ -1,0 +1,4 @@
+{
+    "baseUrl": "https://etherscan.io",
+    "defaultTimeout": 30000
+}

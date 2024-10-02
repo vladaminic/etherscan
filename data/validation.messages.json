@@ -1,0 +1,20 @@
+{
+    "errorMessages": {
+        "validations": {
+            "emptyFields": "This field is required",
+            "invalidEmail": "Please enter a valid email",
+            "passwordMismatch": "Passwords do not match",
+            "weakPassword": "Password is too weak",
+            "termsNotAccepted": "You must agree to the terms and conditions",
+            "duplicateEmail": "Email already exists",
+            "captchaFailed": "CAPTCHA verification failed",
+            "invalidUsername": "Invalid characters in username"
+        }
+    },
+    "title": {
+        "register": "Etherscan Registration Page"
+    },
+    "successMessages": {
+        "registration": "Verify Your Email"
+    }
+}
