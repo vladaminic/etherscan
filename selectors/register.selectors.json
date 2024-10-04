@@ -1,13 +1,28 @@
 {
-    "signupForm": {
-      "usernameInput": "#ContentPlaceHolder1_txtUserName",
-      "emailInput": "#ContentPlaceHolder1_txtEmail",
-      "confirmEmailInput": "#ContentPlaceHolder1_txtConfirmEmail",
-      "passwordInput": "#ContentPlaceHolder1_txtPassword",
-      "confirmPasswordInput": "#ContentPlaceHolder1_txtPassword2",
-      "termsCheckbox": "#ContentPlaceHolder1_MyCheckBox",
-      "subscribeNewsletterCheckbox": "#ContentPlaceHolder1_SubscribeNewsletter",
-      "submitButton": "#ContentPlaceHolder1_btnRegister",
-      "successMessages": "#ContentPlaceHolder1_divHeaderReg > h1"
-    }
+  "signupForm": {
+    "usernameInput": "#ContentPlaceHolder1_txtUserName",
+    "emailInput": "#ContentPlaceHolder1_txtEmail",
+    "confirmEmailInput": "#ContentPlaceHolder1_txtConfirmEmail",
+    "passwordInput": "#ContentPlaceHolder1_txtPassword",
+    "confirmPasswordInput": "#ContentPlaceHolder1_txtPassword2",
+    "termsCheckbox": "#ContentPlaceHolder1_MyCheckBox",
+    "subscribeNewsletterCheckbox": "#ContentPlaceHolder1_SubscribeNewsletter",
+    "submitButton": "#ContentPlaceHolder1_btnRegister",
+    "passwordToggle": ".js-change-password-multi-1",
+    "confirmPasswordToggle": ".js-change-password-multi-2",
+    "signInHereLink": "#ContentPlaceHolder1_divHeaderMain > p > a",
+    "termsLink": "label[for='ContentPlaceHolder1_MyCheckBox'] > a",
+    "unsubscribeLink": "label[for='ContentPlaceHolder1_SubscribeNewsletter'] > a"
+  },
+
+  "messages": {
+    "successRegistrationMessage": "#ContentPlaceHolder1_divHeaderReg > h1",
+    "usernameErrorMessage": "#ContentPlaceHolder1_txtUserName-error",
+    "emailErrorMessage": "#ContentPlaceHolder1_txtEmail-error",
+    "confirmEmailErrorMessage": "#ContentPlaceHolder1_txtConfirmEmail-error",
+    "passwordErrorMessage": "#ContentPlaceHolder1_txtPassword-error",
+    "confirmPasswordErrorMessage": "#ContentPlaceHolder1_txtPassword2-error",
+    "acceptTermsErrorMessage": "#ctl00$ContentPlaceHolder1$MyCheckBox-error",
+    "duplicateCredentialsErrorMessage": ".alert-danger"
   }
+}

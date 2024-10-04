@@ -1,3 +1,6 @@
 {
-    "register": "/register"
+    "register": "/register",
+    "login": "/login",
+    "terms": "/terms",
+    "unsubscribe": "/how-to-subscribe-unsubscribe-newsletter/"
 }

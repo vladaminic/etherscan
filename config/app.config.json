@@ -1,4 +1,4 @@
 {
     "baseUrl": "https://etherscan.io",
-    "defaultTimeout": 30000
+    "infoUrl": "https://info.etherscan.com"
 }

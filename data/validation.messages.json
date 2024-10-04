@@ -1,20 +1,31 @@
 {
     "errorMessages": {
-        "validations": {
-            "emptyFields": "This field is required",
-            "invalidEmail": "Please enter a valid email",
-            "passwordMismatch": "Passwords do not match",
-            "weakPassword": "Password is too weak",
-            "termsNotAccepted": "You must agree to the terms and conditions",
-            "duplicateEmail": "Email already exists",
-            "captchaFailed": "CAPTCHA verification failed",
-            "invalidUsername": "Invalid characters in username"
-        }
-    },
-    "title": {
-        "register": "Etherscan Registration Page"
+            "usernameEmptyField": "Please enter Username.",
+            "emailEmptyField": "Please enter a valid email address.",
+            "confirmEmailEmptyField": "Please re-enter your email address.",
+            "passwordEmptyField": "Please enter Password.",
+            "confirmPasswordEmptyField": "Your password must be at least 8 characters long.",
+            "acceptTeamsNotChecked": "Please accept our Terms and Conditions.",
+
+            "invalidEmail": "Please enter a valid email address.",
+            "emailMismatch": "Email address does not match.",
+            "passwordMismatch": "Password does not match, please check again.",
+            "weakPassword": "Your password must be at least 8 characters long.",
+            "invalidUsername": "Only alphanumeric characters allowed.",
+            "shortUsername": "Please enter at least 5 characters.",
+            
+            "duplicateUsername": "Sorry! The username you entered is already in use.",
+            "duplicateEmail": ""
+            
+        
     },
     "successMessages": {
         "registration": "Verify Your Email"
+    },
+    "title": {
+        "register": "Etherscan Registration Page",
+        "login": "Etherscan Login Page",
+        "terms": "Etherscan Terms and Policies",
+        "unsubscribe": "Etherscan Information Center | How to Subscribe & Unsubscribe from Newsletter"
     }
 }
