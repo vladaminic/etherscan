@@ -2,7 +2,7 @@
 
 ### 1. Valid Signup Test
 **Description:** This test verifies the user registration process with valid input data. It checks whether the user can successfully sign up with a unique username and email.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the signup form with valid username, email, and password.
   3. Accept the terms and conditions.
@@ -12,7 +12,7 @@
 
 ### 2. Invalid Email Format Test
 **Description:** This test checks the system's response to an incorrectly formatted email address during registration.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the email input with an invalid email format.
   3. Focus on the password input.
@@ -20,7 +20,7 @@
 
 ### 3. Mismatched Email Test
 **Description:** This test verifies that the system correctly identifies when the confirmation email does not match the initial email input.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the email and confirmation email inputs with different values.
   3. Submit the form.
@@ -28,7 +28,7 @@
 
 ### 4. Mismatched Passwords Test
 **Description:** This test checks that the system alerts the user when the password and confirmation password do not match.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the password and confirmation password inputs with different values.
   3. Focus on the confirmation email input.
@@ -36,14 +36,14 @@
 
 ### 5. Empty Required Fields Test
 **Description:** This test verifies that all required fields must be filled in to successfully submit the registration form.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Submit the form without filling any fields.
   3. Verify that error messages for all required fields are displayed.
 
 ### 6. Weak Password Test
 **Description:** This test checks that the system validates the strength of the password and gives an error for weak passwords.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the password input with a weak password (less than the minimum required length).
   3. Fill in the confirmation password input with the same weak password.
@@ -52,7 +52,7 @@
 
 ### 7. Unchecked Terms and Conditions Test
 **Description:** This test verifies that users must accept the terms and conditions to successfully register.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in all required fields without checking the terms and conditions.
   3. Submit the form.
@@ -60,7 +60,7 @@
 
 ### 8. Duplicate Username Test
 **Description:** This test checks that the system correctly identifies when a username is already taken.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the signup form with an already existing username and a unique email.
   3. Accept the terms and conditions.
@@ -70,7 +70,7 @@
 
 ### 9. Invalid Username Characters Test
 **Description:** This test checks that the system does not accept usernames containing invalid characters.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the username input with invalid characters (e.g., slashes).
   3. Focus on the email input.
@@ -78,7 +78,7 @@
 
 ### 10. Short Username Test
 **Description:** This test verifies that usernames must meet the minimum length requirement.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the username input with a short username (fewer than the minimum required characters).
   3. Focus on the email input.
@@ -86,7 +86,7 @@
 
 ### 11. Invalid Username with Spaces Test
 **Description:** This test checks that the system does not accept usernames with leading or trailing spaces.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the username input with spaces.
   3. Focus on the email input.
@@ -94,7 +94,7 @@
 
 ### 12. Password and Confirm Password Visibility Toggle Test
 **Description:** This test verifies that users can toggle the visibility of their passwords while entering them.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Fill in the password and confirmation password inputs.
   3. Verify that both inputs are initially masked (type 'password').
@@ -103,21 +103,21 @@
 
 ### 13. Navigate to Login Page via Sign In Link Test
 **Description:** This test checks that users can navigate to the login page using the sign-in link from the registration page.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Click on the sign-in link.
   3. Verify that the login page is loaded.
 
 ### 14. Terms Page is Loaded Test
 **Description:** This test verifies that the terms page is accessible from the registration page.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Click on the terms link.
   3. Verify that the terms page is loaded.
 
 ### 15. Unsubscribe Page is Loaded Test
 **Description:** This test verifies that the unsubscribe page is accessible from the registration page.
-- **Steps:**
+**Steps:**
   1. Open the registration page.
   2. Click on the unsubscribe link.
   3. Verify that the unsubscribe page is loaded.
