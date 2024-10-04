@@ -2,6 +2,14 @@
 
 This project is designed for testing the Etherscan application using Playwright. It implements a structured approach to automate user registration and validation processes.
 
+## Captcha Automation Limitation
+
+Please note that the captcha implemented on the Etherscan website cannot be automated due to its design. As a result, it is not possible to register users through automated tests. Some test cases may include steps as if the captcha does not exist; however, these tests will ultimately fail due to redirection and validation processes associated with the captcha. To run the tests successfully, it is necessary to execute them in an environment where the captcha is disabled.
+
+## Test Cases Location
+
+The test cases for the Etherscan Testing Project are documented in the [`TEST_CASES`](./TEST_CASES.md) file. Each test case is outlined with steps that describe the actions taken during the test. 
+
 ## Project Structure
 
 ```
@@ -12,6 +20,8 @@ etherscan/
 ├── data/
 │   ├── register.data.json         # Test data for user registration.
 │   └── validation.messages.json    # Validation error messages used in tests.
+├── helper/
+│   ├── util.ts                     # Utility functions for generating test data for user registration.
 ├── package.json                    # Project metadata and dependencies.
 ├── package-lock.json               # Lock file for exact dependency versions.
 ├── pages/
