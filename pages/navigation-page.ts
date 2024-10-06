@@ -21,14 +21,13 @@ export class NavigationPage extends BasePage {
     await this.page.waitForLoadState('load');
   }
 
-
   async verifyRegisterPageIsLoaded() {
-    
+
     const currentUrl = await this.page.url();
     expect(currentUrl).toContain(`${app.baseUrl}${routes.register}`);
     await expect(this.page).toHaveTitle(validation.title.register);
   }
-  
+
   async verifyLoginPageIsLoaded() {
     const currentUrl = await this.page.url();
     await expect(currentUrl).toContain(`${app.baseUrl}${routes.login}`);

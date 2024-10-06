@@ -56,7 +56,6 @@ export class RegisterPage extends BasePage {
     this.confirmPasswordToggle = this.page.locator(selectors.signupForm.confirmPasswordToggle);
 
     this.signInHereLink = this.page.locator(selectors.signupForm.signInHereLink);
-
   }
 
   async fillSignupForm(username: string, email: string, confirmEmail: string, password: string, confirmPassword: string) {

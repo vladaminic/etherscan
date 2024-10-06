@@ -4,7 +4,6 @@ import { Util } from '../helper/util';
 import { NavigationPage } from '../pages/navigation-page';
 import { unsubscribe } from 'diagnostics_channel';
 
-
 const email = Util.generateTimestampedUsername();
 const username = Util.generateTimestampedUsername();
 
@@ -15,8 +14,6 @@ test.beforeEach(async ({ pages }) => {
   await pages.register.verifyUsernameInputVisibility();
 
 });
-
-
 
 test('Valid signup test', async ({ pages }) => {
 
@@ -91,7 +88,6 @@ test('Unchecked terms and conditions test', async ({ pages }) => {
 //   await pages.register.subscribeNewsletters();
 //   await pages.register.submitForm();
 
-
 // });
 
 test('Duplicate username test', async ({ pages }) => {
@@ -131,9 +127,9 @@ test('Invalid username with spaces test', async ({ pages }) => {
 });
 
 test('Password and Confirm Password visibility toggle test', async ({ pages }) => {
+
   await pages.register.fillPasswordInput(userData.password);
   await pages.register.fillConfirmPasswordInput(userData.password);
-
 
   await pages.register.verifyPasswordInputType('password');
   await pages.register.verifyConfirmPasswordInputType('password');
@@ -147,19 +143,21 @@ test('Password and Confirm Password visibility toggle test', async ({ pages }) =
 
   await pages.register.verifyPasswordInputType('password');
   await pages.register.verifyConfirmPasswordInputType('password');
+
 });
 
 
 test('Navigate to login page via sign in link test', async ({ pages }) => {
+
   await pages.register.clickOnSignupLink();
   await pages.navigation.verifyLoginPageIsLoaded();
 
 });
 
 test('Terms page is loaded test', async ({ pages }) => {
+  
   const popup = await pages.register.clickTermsLink();
   await new NavigationPage(popup).verifyTermsPageIsLoaded();
-
 
 });
 
